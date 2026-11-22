@@ -1,0 +1,11 @@
+{
+  "version": "1",
+  "case_count": 24,
+  "sha256": {
+    "cases.json": "e5134003a11945029514b9579ae1f3e4988dfb69617886f50863034da41b687e",
+    "expectations.json": "f131bea53996a122668edf47313ad2578b7a03890b269259f3a6685ced357366",
+    "rules.json": "6ac31bd14c6a3625f596490e23c9f1e220ba44f3ae11e3d0452f2a1e353e81e7"
+  },
+  "human_review_status": "PENDING",
+  "labels_not_passed_to_evaluators": true
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "H01",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "元转分且采用批准的0.01转换",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "H02",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "分转元并恢复恒等转换",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "H03",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "十进制尾零表示变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "H04",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "科学计数法表示变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "H05",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "半偶舍入边界表示变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "H06",
+    "category": "harmless",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "表示变化及无关概念描述变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D01",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "金额合法增加",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D02",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "合法新增行",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D03",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "合法删除行",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D04",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "空值变为合法金额",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D05",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "Decimal精度边界越过舍入点",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "D06",
+    "category": "legal_data",
+    "expected_case_state": "VALID",
+    "expected_mapping_states": {
+      "m_a": "VALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "允许负值的合法金额变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B01",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "应付改为实付，显式口径不相容",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B02",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "税前改为实发，显式口径不相容",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B03",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "员工对象改为供应商，显式互斥",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B04",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "自然月改为财务月，显式时间不相容",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B05",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "INVALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "共享约束要求改为实付，影响两个映射",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "B06",
+    "category": "business_change",
+    "expected_case_state": "INVALID",
+    "expected_mapping_states": {
+      "m_a": "INVALID",
+      "m_b": "INVALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "共享参考概念明确禁用并且缺少单位证据",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U01",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "对象证据缺失",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U02",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "只有closeMatch口径关系，不能批准",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U03",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "UNKNOWN"
+    },
+    "expected_answers_equal": true,
+    "expected_execution_errors": [],
+    "rationale": "转换批准的版本过期，旧批准拒用",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U04",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "单位信息缺失且数值变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U05",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "UNKNOWN"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "月薪到年薪计算乘12，但没有业务批准",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  },
+  {
+    "case_id": "U06",
+    "category": "unknown",
+    "expected_case_state": "UNKNOWN",
+    "expected_mapping_states": {
+      "m_a": "UNKNOWN",
+      "m_b": "VALID"
+    },
+    "expected_answers_equal": false,
+    "expected_execution_errors": [],
+    "rationale": "exactMatch不能覆盖口径和单位前提，数值变化",
+    "review_status": "HUMAN_REVIEW_PENDING",
+    "reviewer": null,
+    "note": "Predeclared specification expectations authored before testing; no human signature supplied."
+  }
+]

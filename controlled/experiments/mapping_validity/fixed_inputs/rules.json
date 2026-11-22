@@ -1,0 +1,17 @@
+{
+  "source": {
+    "id": "controlled://mapping-validity/spec-v1",
+    "kind": "CONTROLLED_INJECTION",
+    "version": "1",
+    "description": "Researcher-authored controlled premises; not Valentine or real bank annotations."
+  },
+  "state_logic": "Violation dominates UNKNOWN; VALID requires current support for each premise.",
+  "allowed_inference": [
+    "rdfs:subClassOf",
+    "rdfs:subPropertyOf",
+    "rdf:type inheritance",
+    "explicit incompatibility"
+  ],
+  "skos_policy": "closeMatch/related/exactMatch do not approve business prerequisites.",
+  "unit_policy": "Only explicit current approved from/to/scale/quantum/rounding records approve conversion."
+}
